@@ -228,10 +228,31 @@ My YOLOv8n waste-detection model served as the core AI/ML perception component o
 <!-- TODO: Add robot photos/demo video, hardware details, and on-robot evaluation results once available. -->
 
 ### Autonomous Plastic Bottle Collector Images
-| | | |
-|---|---|---|
-| ![Autonomous plastic bottle collector robot shown outdoors alongside its developer, with both positioned for demonstration](images/robot2.webp) <br> Robot | ![Developer demonstrating the autonomous plastic bottle collector beside waste paper samples in an indoor workspace](images/robot5.webp) <br> Paper | ![Side view of the autonomous plastic bottle collector robot displaying its collection mechanism in an indoor setting](images/robot3.webp) <br> Robot | ![Developer presenting paper waste identified by the plastic bottle collector in a practical demonstration setting](images/robot4.webp) <br> Paper | ![Autonomous plastic bottle collector robot standing on the floor during a testing and demonstration session](images/robot1.webp) <br> Robot |
 
+<table>
+  <tr>
+    <td align="center">
+      <img src="images/robot2.png" alt="Autonomous plastic bottle collector robot shown outdoors alongside its developer" width="180"><br>
+      Robot
+    </td>
+    <td align="center">
+      <img src="images/robot5.png" alt="Developer demonstrating the autonomous plastic bottle collector beside waste paper samples" width="180"><br>
+      Paper
+    </td>
+    <td align="center">
+      <img src="images/robot3.png" alt="Side view of the autonomous plastic bottle collector showing its collection mechanism" width="180"><br>
+      Robot
+    </td>
+    <td align="center">
+      <img src="images/robot4.png" alt="Developer presenting paper waste identified by the plastic bottle collector" width="180"><br>
+      Paper
+    </td>
+    <td align="center">
+      <img src="images/robot1.png" alt="Autonomous plastic bottle collector robot during a testing and demonstration session" width="180"><br>
+      Robot
+    </td>
+  </tr>
+</table>
 ---
 
 ## 🛠️ Tech Stack
