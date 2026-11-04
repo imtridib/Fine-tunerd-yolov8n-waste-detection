@@ -229,33 +229,16 @@ My YOLOv8n waste-detection model served as the core AI/ML perception component o
 
 ### Autonomous Plastic Bottle Collector Images
 
-<table>
-  <tr>
-    <td align="center">
-      <img src="images/robot2.webp" alt="Autonomous plastic bottle collector robot shown outdoors alongside its developer" width="180"><br>
-      Robot
-    </td>
-    <td align="center">
-      <img src="images/robot5.webp" alt="Developer demonstrating the autonomous plastic bottle collector beside waste paper samples" width="180"><br>
-      Robot Architecture
-    </td>
-    <td align="center">
-      <img src="images/robot3.webp" alt="Side view of the autonomous plastic bottle collector showing its collection mechanism" width="180"><br>
-      Plastic Detection
-    </td>
-  </tr>
-  <tr>
-    <td align="center">
-      <img src="images/robot4.webp" alt="Developer presenting paper waste identified by the plastic bottle collector" width="180"><br>
-      Plastic Detection
-    </td>
-    <td align="center">
-      <img src="images/robot1.webp" alt="Autonomous plastic bottle collector robot during a testing and demonstration session" width="180"><br>
-      Robot
-    </td>
-    <td></td>
-  </tr>
-</table>
+### Autonomous Plastic Bottle Collector Images
+### Autonomous Plastic Bottle Collector Images
+
+| | | |
+|---|---|---|
+| ![](images/robot2.webp) <br> Robot | ![](images/robot5.webp) <br> Robot Architecture | ![](images/robot3.webp) <br> Plastic Detection |
+
+| | |
+|---|---|
+| ![](images/robot4.webp) <br> Plastic Detection | ![](images/robot1.webp) <br> Robot |
 ---
 
 ## 🛠️ Tech Stack
