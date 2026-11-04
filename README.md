@@ -230,15 +230,11 @@ My YOLOv8n waste-detection model served as the core AI/ML perception component o
 ### Autonomous Plastic Bottle Collector Images
 
 ### Autonomous Plastic Bottle Collector Images
-### Autonomous Plastic Bottle Collector Images
 
 | | | |
 |---|---|---|
 | ![](images/robot2.webp) <br> Robot | ![](images/robot5.webp) <br> Robot Architecture | ![](images/robot3.webp) <br> Plastic Detection |
-
-| | |
-|---|---|
-| ![](images/robot4.webp) <br> Plastic Detection | ![](images/robot1.webp) <br> Robot |
+| ![](images/robot4.webp) <br> Plastic Detection | ![](images/robot1.webp) <br> Robot | |
 ---
 
 ## 🛠️ Tech Stack
