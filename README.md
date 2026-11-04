@@ -243,6 +243,8 @@ My YOLOv8n waste-detection model served as the core AI/ML perception component o
       <img src="images/robot3.webp" alt="Side view of the autonomous plastic bottle collector showing its collection mechanism" width="180"><br>
       Plastic Detection
     </td>
+  </tr>
+  <tr>
     <td align="center">
       <img src="images/robot4.webp" alt="Developer presenting paper waste identified by the plastic bottle collector" width="180"><br>
       Plastic Detection
@@ -251,6 +253,7 @@ My YOLOv8n waste-detection model served as the core AI/ML perception component o
       <img src="images/robot1.webp" alt="Autonomous plastic bottle collector robot during a testing and demonstration session" width="180"><br>
       Robot
     </td>
+    <td></td>
   </tr>
 </table>
 ---
