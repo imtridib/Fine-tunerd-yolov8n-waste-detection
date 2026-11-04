@@ -135,24 +135,21 @@ Detections from the final model on unseen test images (confidence in brackets).
 ### Metal
 | | | |
 |---|---|---|
-| ![](images/detection_metal_01.png) <br> Metal (0.96) | ![](images/detection_metal_02.png) <br> Metal (0.91) | ![](images/detection_metal_03.png) <br> Metal (0.88) |
-| ![](images/detection_metal_04.png) <br> Metal (0.89) | ![](images/detection_metal_05.png) <br> Metal (0.91) | ![](images/detection_metal_06.png) <br> Metal (0.91) |
-
+| ![](images/detection3.png) <br> Metal (0.96) | ![](images/detection1.png) <br> Metal (0.91) | ![](images/detection2.png) <br> Metal (0.89) |
+|
 ### Plastic
 | | | |
 |---|---|---|
-| ![](images/detection_plastic_02.png) <br> Plastic (0.89) | ![](images/detection_plastic_03.png) <br> Plastic (0.86) | ![](images/detection_plastic_04.png) <br> Plastic (0.84) |
-| ![](images/detection_plastic_05.png) <br> Plastic (0.93) | ![](images/detection_plastic_06.png) <br> Plastic (0.93) | ![](images/detection_plastic_07.png) <br> Plastic (0.79) |
-
+| ![](images/plastic1.png) <br> Plastic (0.93) | ![](images/plastic2.png) <br> Plastic (0.86) |
 ### Glass
 | | |
 |---|---|
-| ![](images/detection_glass_01.png) <br> Glass | ![](images/detection_glass_02.png) <br> Glass (0.95) |
+| ![](images/glass2.png) <br> Glass (0.94) | ![](images/glass1.png) <br> Glass (0.95) |
 
 ### Paper
 | | | |
 |---|---|---|
-| ![](images/detection_paper_01.png) <br> Paper | ![](images/detection_paper_02.png) <br> Paper | ![](images/detection_paper_03.png) <br> Paper |
+| ![](images/paper1.png) <br> Paper | ![](images/paper2.png) <br> Paper |
 
 ---
 
@@ -211,15 +208,29 @@ results[0].show()                        # draws bounding boxes
 
 ---
 
-## 🤖 Real-World Application: Waste Collection Robot
+## 🤖 Real-World Application: Autonomous Plastic Bottle Collector
 
-This model was used as the AI perception component of a **waste collection robot** built by a campus mate, where I consulted on and supported the AI/ML side (model selection, training, evaluation and deployment guidance).
+My YOLOv8n waste-detection model served as the core AI/ML perception component of a **Autonomous Plastic Bottle Collector** developed by my campus mate. As the AI/ML Engineer contributing to this project, I focused on developing and training the detection model, evaluating its performance, and providing technical consultation on its application to the robot.
 
-- 🔗 **Robot project:** [nm-razon-portfolio.vercel.app](https://nm-razon-portfolio.vercel.app/)
-- **Role of the model:** detects waste in the camera feed and classifies it so the robot can decide what to collect.
-- **Next step:** integration of this detector into the robot's pipeline (camera → YOLOv8n → control logic), with results to be added here.
+### My AI/ML Contribution
 
-<!-- TODO: add robot photo/demo video, hardware used, and on-robot results once available -->
+- **Core Detection Solution:** Developed and fine-tuned the YOLOv8n model to detect and classify five waste categories, providing the essential visual recognition capability for the Autonomous Plastic Bottle Collector robot.
+- **Model Training & Evaluation:** Trained the model and evaluated its performance using precision, recall, and mAP metrics to assess its waste-detection capabilities.
+- **AI/ML Consultation:** Provided technical guidance on model selection, training, evaluation, and the potential integration of the trained model into the robot's detection pipeline.
+- **Real-World Application:** Contributed the machine-learning component that supports the robot's ability to recognize waste from camera images and identify objects for collection.
+
+### Autonomous Plastic Bottle Collector Robot Project Reference
+
+- 🔗 **Autonomous Plastic Bottle Collector project:** [Niaz Morshed Razon's Portfolio](https://nm-razon-portfolio.vercel.app/)
+- **Role of the model:** The trained detector identifies and classifies waste in camera images, providing detection outputs that can support the robot's collection decisions.
+- **Next step:** Further integration and testing of the detector within the robot's pipeline (camera → YOLOv8n → control logic), followed by evaluation of its real-world performance.
+
+<!-- TODO: Add robot photos/demo video, hardware details, and on-robot evaluation results once available. -->
+
+### Autonomous Plastic Bottle Collector Images
+| | | |
+|---|---|---|
+| ![](images/robot1.png) <br> Paper | ![](images/paper2.png) <br> Paper | ![](images/paper2.png) <br> Paper | ![](images/paper2.png) <br> Paper | ![](images/paper2.png) <br> Paper |
 
 ---
 
@@ -229,10 +240,17 @@ Python · Ultralytics YOLOv8 · PyTorch · OpenCV · Matplotlib · Kaggle (Tesla
 
 ## 👤 Author
 
-**Niaz Morshed Razon**
-Portfolio: [nm-razon-portfolio.vercel.app](https://nm-razon-portfolio.vercel.app/)
+**Tridib Chakraborty** — AI/ML Engineer
+
+- GitHub: [github.com/imtridib](https://github.com/imtridib)
+- Kaggle: [kaggle.com/imtridib](https://www.kaggle.com/imtridib)
+- LinkedIn: [linkedin.com/in/tridib-chakraborty-ewu-thk](https://www.linkedin.com/in/tridib-chakraborty-ewu-thk)
+- Portfolio: [tridib-chakraborty.vercel.app/](https://tridib-chakraborty.vercel.app/)
+
+**Robot Project Developer:** [Niaz Morshed Razon](https://nm-razon-portfolio.vercel.app/)
 
 ## 📜 License & Acknowledgements
 
-- Model: [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) (AGPL-3.0). Check its license terms if you use this commercially.
-- Dataset: Kaggle `plasticwaste` dataset. Please credit the original dataset authors and check its license.
+- **Model:** [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics) (AGPL-3.0). Review the license terms before using or distributing the model, particularly for commercial applications.
+- **Dataset:** Kaggle `plasticwaste` dataset. Please credit the original dataset authors and review the dataset license before redistribution or commercial use.
+- **Robot Project:** Acknowledgements to Niaz Morshed Razon for developing the waste collection robot and applying the AI/ML detection model in the project.
